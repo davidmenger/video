@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    position: relative;
+    min-height: 100%;
+    background: #000;
+}
+
+.ready {
+    height: 100%;
+    display: flex;
+}
+
+.ready-content {
+    align-self: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#mount video {
+    margin: 0 auto;
+    align-self: center;
+    flex-grow: 1;
+}
+
+#mount {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#mount.is-hidden {
+    display: none;
+}
